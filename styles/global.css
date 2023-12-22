@@ -1,0 +1,27 @@
+:root {
+	--color-bg: #363636;
+	--color-text: #FFFFFF;
+	--color-link-hover: #AFB2BF;
+	--color-link-active: #6e6e6e;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: var(--color-bg);
+	font-family: 'Poppins', sans-serif;
+	color: var(--color-text);
+	overflow: hidden;
+}
+
+ a {
+ 	text-decoration: none;
+ }
+
+ a:visited {
+ 	color: var(--color-text);
+ }
