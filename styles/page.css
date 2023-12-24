@@ -1,7 +1,35 @@
+.main__wrapper {
+	margin-top: 54px;
+	margin-left: 34px;
+	max-width: 912px;
+}
+
+.main__wrapper h1 {
+	font-size: 54px;
+	font-weight: 700;
+}
+
+.main__wrapper p {
+	font-size: 42px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
 .faswan-home {
 	position: absolute;
 	height: 1000px;
 	bottom: 0;
 	right: 0;
 	z-index: -1;
+}
+
+@media (max-width: 660px) {
+	.main__wrapper h1 {
+		font-size: 36px;
+		transition: all 2s;
+	}
+	.main__wrapper p {
+		font-size: 28px;
+		transition: all 2s;
+	}
 }
